@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#contadorTiempo {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+#contenedorImagen {
+    margin-top: 20px;
+    max-width: 500px; /* Tamaño máximo de la imagen */
+    max-height: 500px; /* Tamaño máximo de la imagen */
+    overflow: hidden; /* Para ocultar partes de la imagen que superen el tamaño máximo */
+}
+
+#contenedorImagen img {
+    width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción original */
+}
