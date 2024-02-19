@@ -38,12 +38,12 @@ button:hover {
 
 #contenedorImagen {
     margin-top: 20px;
-    max-width: 500px; /* Tamaño máximo de la imagen */
-    max-height: 500px; /* Tamaño máximo de la imagen */
-    overflow: hidden; /* Para ocultar partes de la imagen que superen el tamaño máximo */
+    max-width: 500px; 
+    max-height: 500px; 
+    overflow: hidden; 
 }
 
 #contenedorImagen img {
-    width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
-    height: auto; /* La altura se ajusta automáticamente para mantener la proporción original */
+    width: 100%; 
+    height: auto; 
 }
